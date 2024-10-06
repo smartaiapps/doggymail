@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+a,h1,h2,h3,h4,h5,h6,p,span,table, div, button, input, optgroup, select, textarea, label{
+  font-family: "Quicksand", sans-serif !important;
+  font-weight: 600 !important;
+}
+
+::before,*::after{
+  box-sizing:border-box
+}
+:root{
+  -moz-tab-size:4;
+  -o-tab-size:4;
+  tab-size:4;
+  width:100%;
+}
+html{
+  line-height:1.15;
+  -webkit-text-size-adjust:100%
+}
+body{
+  margin:0;
+  display:block
+}
